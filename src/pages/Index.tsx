@@ -5,6 +5,7 @@ import { CategoricalAnalysis } from "@/components/dashboard/CategoricalAnalysis"
 import { NumericalAnalysis } from "@/components/dashboard/NumericalAnalysis";
 import { ReportSection } from "@/components/dashboard/ReportSection";
 import { ModelingSection } from "@/components/dashboard/ModelingSection";
+import { AdvancedModelingSection } from "@/components/dashboard/AdvancedModelingSection";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       <div className="container mx-auto px-4 pb-8">
         <DataImportSection />
         <ModelingSection />
+        <AdvancedModelingSection />
         <ChurnDistributionChart />
         <CategoricalAnalysis />
         <NumericalAnalysis />
