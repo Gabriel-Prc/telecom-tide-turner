@@ -61,7 +61,7 @@ pip (gestor de pacotes do Python)
 Instalação
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/telecom-churn-analysis.git
+git clone 
 cd telecom-churn-analysis
 
 Crie e ative um ambiente virtual (recomendado):
